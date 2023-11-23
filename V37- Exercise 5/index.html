@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            background-color: blueviolet;
+            position: sticky;
+            top: 0;
+        }
+
+        .nav>ul {
+            list-style: none;
+            display: flex;
+
+            color: white;
+            padding: 5px;
+        }
+
+        .nav>ul>li {
+            border: 2px solid white;
+            padding: 10px;
+            margin: 2px;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+
+        .nav>ul>li:hover {
+            background-color: white;
+            color: blueviolet;
+            box-shadow: 2px 2px 2px rgb(0, 145, 255);
+        }
+
+        .nav>div>img {
+            padding: 6px 38px 5px 26px;
+            float: left;
+        }
+
+        .article {
+            background-color: rgb(143, 220, 232);
+            height: 500px;
+            margin: 10px;
+            border-radius: 7px;
+        }
+
+        .box {
+            background-color: rgb(0, 0, 0);
+            border: 2px solid black;
+            border-radius: 7px;
+            height: 75%;
+            width: 40%;
+            color: white;
+            box-shadow: 2px 2px 2px rgb(6, 19, 255);
+        }
+
+        .box1 {
+            float: left;
+            padding: 30px;
+            margin: 30px;
+        }
+
+        .box2 {
+            float: right;
+            padding: 30px;
+            margin: 30px;
+        }
+
+        .article>div>h2 {
+            text-align: center;
+        }
+
+        .box:hover {
+            background-color: aliceblue;
+            color: black;
+            box-shadow: 2px 2px 2px rgb(255, 0, 225);
+        }
+
+        .btn {
+            padding: 5px;
+            border: 2px solid white;
+            border-radius: 5px;
+            color: aliceblue;
+            margin: 30px;
+
+            background-color: black;
+        }
+        .footer{
+            background-color: rgb(163, 163, 237);
+            border: 2px solid rgb(53, 53, 249);
+            border-radius: 20px;
+            margin: 20px 40px;
+        }
+        .footer>h1{
+            text-align: center;
+            padding: 70px;
+        }
+        .orangebox{
+            height: 32px;
+            width: 32px;
+            background: orange;
+            position: fixed;
+            bottom: 12px;
+            right: 23px;
+            border-radius: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <div>
+            <img src="7zds_szcc_210607-removebg-preview.png" alt="" width="40px">
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <article class="article">
+        <div class="box box1">
+            <h2> Kundan</h2>
+            <p>This is box Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis delectus voluptas architecto
+                dolorem laudantium assumenda ratione omnis quasi blanditiis. Suscipit, veniam incidunt.</p>
+            <p>This is box Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis delectus voluptas architecto
+                dolorem laudantium assumenda ratione omnis quasi blanditiis. Suscipit, veniam incidunt.</p>
+            <button class="btn">Read More</button>
+        </div>
+        <div class="box box2">
+            <h2> Kundan</h2>
+            <p>This is box Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis delectus voluptas architecto
+                dolorem laudantium assumenda ratione omnis quasi blanditiis. Suscipit, veniam incidunt.</p>
+            <p>This is box Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis delectus voluptas architecto
+                dolorem laudantium assumenda ratione omnis quasi blanditiis. Suscipit, veniam incidunt.</p>
+            <button class="btn">Read More</button>
+        </div>
+        <div class="orangebox">
+
+        </div>
+    </article>
+    <footer class="footer">
+        <h1>This is Beginning of Great future</h1>
+    </footer>
+</body>
+
+</html>

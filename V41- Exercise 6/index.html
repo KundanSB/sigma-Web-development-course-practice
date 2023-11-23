@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6 </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        header {
+            background-color: aqua;
+            padding: 5px;
+            display: flex;
+        }
+
+        .nav ul {
+
+            list-style: none;
+            flex-wrap: wrap;
+            display: flex;
+            margin: 0px 85px;
+        }
+
+        .nav ul li {
+            border: 2px solid black;
+            padding: 10px 20px;
+            margin: 5px 5px;
+            border-radius: 7px;
+            cursor: pointer;
+
+        }
+
+        .nav ul li:hover {
+            border: 2px solid white;
+            background-color: white;
+            color: rgb(0, 0, 0);
+            box-shadow: 5px 5px 5px black;
+
+        }
+
+        #search {
+            background-color: rgb(233 245 236);
+            border-radius: 24px;
+            padding: 0px 26px;
+            height: 34px;
+            width: 47%;
+            margin: auto 20px;
+        }
+        #search:hover{
+            border: 2px solid white;
+            box-shadow: 5px 5px 5px black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Design this website's Navbar Using Flexbox -->
+    <header>
+        <nav class="nav">
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>Product</li>
+                <li>About</li>
+            </ul>
+
+        </nav>
+        <input type="search" name="Search" id="search">
+    </header>
+</body>
+
+</html>

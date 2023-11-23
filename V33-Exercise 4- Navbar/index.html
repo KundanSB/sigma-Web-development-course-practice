@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <style>
+        :root {
+            --color: rgb(239, 198, 198);
+            /* primery color  */
+            --seccolor: rgb(247, 145, 145);
+            /* secondary color*/
+            --tericolor: rgb(237, 226, 197);
+            --quatcolor: red;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div ul li {
+            list-style: none;
+            padding: 12px 23px;
+            background-color: var(--tericolor);
+            border: 1px solid var(--seccolor);
+            border-radius: 10px;
+            margin: 3px;
+            cursor: pointer;
+            
+        }
+
+        ul {
+            display: flex;
+        }
+
+        .nav {
+            background-color: var(--color);
+            width: 100%;
+            /* padding: 10px;
+            border-radius: 30px;
+            margin: 5px; */
+            box-shadow: 5px 5px 5px rgb(150, 93, 93);
+            position: sticky;
+            
+        }
+
+        
+        div ul li:hover{
+            background-color: var(--quatcolor);
+            color: azure;
+            box-shadow: 1px 1px 4px var(--quatcolor);
+            border: 2px solid orange;
+        }
+        @media only screen and (max-width: 455px) {
+            body {
+                background-color: var(--quatcolor);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+</body>
+
+</html>

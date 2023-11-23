@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.r1 {
+    margin-top: 23px ;
+    text-align: center;
+    border: 2px solid;
+}
+.r2 {
+    margin-top: 23px ;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 12px;
+}
