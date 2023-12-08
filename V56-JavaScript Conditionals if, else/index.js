@@ -1,0 +1,1 @@
+console.log("This is If else condition in JS");
